@@ -1,5 +1,8 @@
 ## githubConfigUrl is the GitHub url for where you want to configure runners
 ## ex: https://github.com/myorg/myrepo or https://github.com/myorg
+controllerServiceAccount:
+  namespace: arc-system
+  name: arc-system-gha-rs-controller
 githubConfigUrl: ""
 
 ## githubConfigSecret is the k8s secret information to use when authenticating via the GitHub API.
